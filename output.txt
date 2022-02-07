@@ -1,0 +1,48 @@
+
+
+---------- main -------------------
+
+0xffffffffffff (999999999999999): Last address
+      0x4015e5 (        4199909): Address etext
+      0x404044 (        4210756): Address edata
+      0x405820 (        4216864): Address end
+      0x40135d (        4199261): Address of code for proc1
+      0x401443 (        4199491): Address of code for proc2
+      0x404080 (        4210816): Address of uninitialized global variable g0
+      0x404034 (        4210740): Address of initialized   global variable g1
+      0x4040a0 (        4210848): Address of uninitialized global array    g2
+      0x404038 (        4210744): Address of initialized   global variable g3
+      0x405810 (        4216848): Address of uninitialized global variable g4
+      0xdd6e70 (       14511728): Address heap1 in heap space
+      0xdd6ea0 (       14511776): Address heap2 in heap space
+0x7ffe6018d4fc (140730510660860): Address of local variable lc0
+0x7ffe6018d4f8 (140730510660856): Address of local variable lc1
+0x7ffe6018d4f4 (140730510660852): Address of local variable lc2
+      0x405814 (        4216852): Address of local uninitialized static var ls0
+      0x40403c (        4210748): Address of local initialized   static var ls1
+
+
+----------- proc1 ------------------
+
+      0x40135d (        4199261): Address of code for proc1
+      0x404080 (        4210816): Address of global variable g0
+      0x404034 (        4210740): Address of global variable g1
+      0x4040a0 (        4210848): Address of global variable g2
+      0x404038 (        4210744): Address of global variable g3
+      0x405810 (        4216848): Address of global variable g4
+0x7ffe6018d4dc (140730510660828): Address of local variable lc3
+0x7ffe6018d4d8 (140730510660824): Address of local variable lc4
+
+
+------------ proc2 -----------------
+
+      0x401443 (        4199491): Address of code for proc2
+      0x404080 (        4210816): Address of global variable g0
+      0x404034 (        4210740): Address of global variable g1
+      0x4040a0 (        4210848): Address of global variable g2
+      0x404038 (        4210744): Address of global variable g3
+      0x405810 (        4216848): Address of global variable g4
+0x7ffe6018d4dc (140730510660828): Address of local variable lc5
+0x7ffe6018d4d8 (140730510660824): Address of local variable lc6
+      0x405818 (        4216856): Address of local uninitialized static var ls2
+      0x404040 (        4210752): Address of local initialized   static var ls3
